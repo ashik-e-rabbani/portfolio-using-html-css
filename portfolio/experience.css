@@ -1,0 +1,121 @@
+
+body {
+	margin: 0 auto;
+	font-family: Segoe UI;
+	background-color:#100e17;
+	color: white;
+}
+
+#navbar {
+
+	height: 120px;
+	width: 100%;
+	border-bottom: solid 0.5px rgba(194,194,194,0.5);
+	border-top: solid 0.5px rgba(194,194,194,0.5);
+}
+
+
+
+#iconBar {
+
+padding: 30px;
+float: left;
+margin-left: 80px;
+}
+
+#iconBar img {
+
+	height: 60px;
+	width: 60px;
+	margin-right: 60px;
+
+}
+
+
+
+
+#menuBar {
+
+padding: 30px;
+float: right;
+margin-right: 80px;
+}
+
+#menuBar img {
+
+	height: 60px;
+	width: 60px;
+	margin-right: 60px;
+
+}
+
+/* end of menu */
+
+#academicSection {
+
+	height: 600px;
+	width: 80%;
+	margin: auto;
+
+}
+
+#title {
+text-align: center;
+	font-size: 30px;
+	margin-bottom: 30px;
+	
+	padding: 0 0 20px;
+	
+}
+
+.item h2,p {
+
+	text-align: justify;
+	margin-left: 100px;
+}
+
+.item {
+	border-radius: 10px;
+	margin-bottom: 50px;
+	height: 200px;
+	width: 100%;
+	background: rgba(255,255,255,0.05);
+}
+
+.item:hover {
+
+background: linear-gradient(90deg, rgba(252,127,10,1) 0%, rgba(232,69,59,1) 35%, rgba(219,28,95,1) 100%);
+}
+
+
+#left {
+	
+	display: inline-block;
+	float: left;
+	height: 100%;
+	width: 30%;
+	margin: auto;
+}
+
+#left img{
+	border-radius: 10px;
+	height: 100%;
+	width: auto;
+}
+
+#right {
+	
+	display: inline-block;
+	float: right;
+	height: 100%;
+	width: 70%;
+}
+
+.footer_center {
+ 
+	height: 100px;
+	width: 100%;
+	font-size: 12px;
+
+}
+
